@@ -23,7 +23,7 @@ function App() {
      
       
        {/* <Test />  */}
-        <Neon />
+       {/* <Neon />  */}
       <About />
      
  
