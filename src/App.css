@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+ 
+}
+
+body {
+  color: white;
+  background-color: black;
+  font: 'Inter var',Inter,-apple-system,'Helvetica Neue',Helvetica,Arial,sans-serif;;
+}
+
+/* ========== SECTION ========== */
+
+.section {
+  height: 90vh;
+  border: 5px solid purple;
+}
+
+.container {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ========== COLORS ========== */
+
+.rainbow{
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb085, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb085, #fd1d1d, #833ab4);
+  background-size: 100%;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+/* ========== BUTTON ========== */
+
+.button {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: aqua;
+  text-align: center;
+  background-color: inherit;
+  padding: 0.8rem 3rem;
+  border: 1px solid aqua;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  z-index: 10;
+}
+
+.button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100.5%;
+  background: aqua;
+  transition: all 0.5s;
+  z-index: -1;
+}
+
+.button:hover {
+  color: black;
+}
+
+.button:hover:after {
+  width: 100.3%;
+}
+
+/* ========== LINK ========== */
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg{
+  z-index: 2;
+  
+}

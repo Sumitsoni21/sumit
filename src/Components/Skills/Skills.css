@@ -1,0 +1,204 @@
+
+.skills_container {
+ padding-top: 4rem;
+}
+.skills_title {
+  font-size: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.skills_main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4rem;
+}
+
+.skills_bar {
+  margin-bottom: 1.5rem;
+}
+
+.skills_name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.bar {
+  width: 100%;
+  margin-top: 5px;
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar span {
+  background-color: aqua;
+  border-radius: 25px;
+  height: 20px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+
+  .skills_title {
+    font-size: 28px;
+    margin-bottom: 1rem;
+  }
+
+  .skills_main {
+    display: block;
+    margin: 0 12%;
+  }
+
+  
+.skills_name {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .skills_bar {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  
+.bar {
+    width: 100%;
+    margin-top: 3px;
+    height: 10px;
+    border-radius: 1px;
+  }
+
+  .bar span {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 0px;
+    height: 30px;
+    float: left;
+  }
+}
+
+.html {
+  width: 70%;
+  animation: html 0.7s ease-in-out;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.css {
+  width: 50%;
+  animation: css 0.7s ease-in-out;
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.bootstrap {
+  width: 40%;
+  animation: bootstrap 0.7s ease-in-out;
+}
+
+@keyframes bootstrap {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}
+
+.js {
+  width: 60%;
+  animation: js 0.7s ease-in-out;
+}
+
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.react {
+  width: 60%;
+  animation: react 0.7s ease-in-out;
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.git {
+  width: 40%;
+  animation: git 0.7s ease-in-out;
+}
+
+@keyframes git {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+.node {
+  width: 45%;
+  animation: node 0.7s ease-in-out;
+}
+
+@keyframes node {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 45%;
+  }
+}
+
+.mongo {
+  width: 40%;
+  animation: mongo 0.7s ease-in-out;
+}
+
+@keyframes mongo {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 40%;
+  }
+}

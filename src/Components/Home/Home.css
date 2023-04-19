@@ -1,0 +1,191 @@
+.home {
+  /* padding-top: 8rem; */
+  /* border: 5px solid #9b51e0; */
+}
+
+.home_container{
+  padding-top: 8rem;
+}
+
+.home_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.space {
+  margin-left: 25px;
+}
+
+.home_subtitle {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.home_title,
+.space,
+.line_break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_title {
+  margin-bottom: -3rem;
+  font-size: 7rem;
+}
+
+
+.social_icon {
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.ln {
+  position: absolute;
+  top: 32%;
+  right: 11.7%;
+  font-size: 2.3rem;
+}
+
+.insta {
+  position: absolute;
+  top: 47%;
+  right: 11.6%;
+  font-size: 2.5rem;
+}
+
+.yt {
+  position: absolute;
+  top: 63%;
+  right: 11.6%;
+  font-size: 2rem;
+}
+
+.social_icon:hover {
+  color: aqua;
+  transform: scale(1.2, 1.2);
+}
+
+/* ========== Arrow ========== */
+
+@media screen and (max-width: 960px) {
+
+  .home {
+    padding-top: 4rem;
+    padding-left: 1.4rem;
+  }
+
+  .home_title {
+    font-size: 4rem;
+  }
+
+  .line_break {
+    /* font-size: 4rem; */
+    position: relative;
+    top: 80px;
+    left: -85px;
+  }
+
+  .home_subtitle {
+    font-size: 1.6rem;
+    margin-top: 9rem;
+   
+  }
+
+  .ln {
+    top: 77%;
+    left: 35%;
+    font-size: 2.3rem;
+  }
+  
+  .insta {
+    top: 77%;
+    left: 11.6%;
+    font-size: 2.5rem;
+  }
+  
+
+
+
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   
+@keyframes rubberBand{
+
+    from{
+       transform: scale3d(1.2,0.5,1);
+       
+   }
+   16%{
+       transform: scale3d(1.2,0.5,1);
+       
+   }
+   32%{
+       transform: scale3d(0.8,1.1,1);
+      
+   }
+   48%{
+       transform: scale3d(0.95,1,1);
+       
+   }
+   64%{
+       transform: scale3d(0.8,1.2,1);
+      
+   }
+   80%{
+       transform: scale3d(1.15,1,1);
+       
+   } 
+   80%{
+       transform: scale3d(1.15,1,1);
+ 
+   } 
+   90%{
+       transform: scale3d(0.8,1,1);
+      
+   }
+   95%{
+       transform: scale3d(1.05,1,1);
+       
+   }
+   to{
+       transform: scale3d(1,1,1);
+      
+   } 
+} */
