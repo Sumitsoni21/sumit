@@ -1,10 +1,12 @@
-
+.skills{
+  height: 85vh;
+}
 .skills_container {
- padding-top: 4rem;
+ padding-top: 1rem;
 }
 .skills_title {
   font-size: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 

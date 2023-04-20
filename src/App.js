@@ -23,11 +23,8 @@ function App() {
      
       
        {/* <Test />  */}
-       {/* <Neon />  */}
+       <Neon /> 
       <About />
-     
- 
-     
        <Skills />
           
       <Contact />

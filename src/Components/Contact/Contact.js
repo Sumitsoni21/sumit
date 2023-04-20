@@ -19,7 +19,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact section">
+    <div className="contact section" id="contact">
       <div className="contact_container container">
         <h3 className="contact_title">CONTACT ME</h3>
         <form ref={form} onSubmit={sendEmail} className="contact_form">

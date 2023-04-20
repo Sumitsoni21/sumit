@@ -3,14 +3,14 @@
   align-items: flex-start;
  }
 
- .fun {
+ .fun, #fun {
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: 1;
     cursor: pointer;
   }
   
-  .fun.animated {
+  .fun.animated, #fun-animated {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
   }

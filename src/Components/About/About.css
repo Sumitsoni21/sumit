@@ -1,10 +1,11 @@
 .about_container{
-  padding-top: 2.5rem;
+  padding-top: 1rem;
 }
 
 .about_title {
   font-size: 70px;
   margin-bottom:2rem;
+  text-align: center;
 }
 
 .about_content_container {
@@ -12,12 +13,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  margin: 50px 50px 50px 0;
+  margin: 50px 0px 50px 0;
 }
 
 .about_img_container {
   flex: 1;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .about_img {
@@ -47,24 +48,27 @@
 }
 
 .about_button_container {
-  /* max-width: 500px; */
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
 .about_button {
-  width: 490px;
+  width: 100%;
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   
   .about_title{
     text-align: center;
     font-size: 60px;
   }
 
+  .about_content_container {
+    
+    margin-left: 30px;
+  }
   .about_img_container {
    max-width: 300px;
   }
@@ -73,6 +77,8 @@
     width: 250px;
     height: 250px;
   }
+
+
 
   
 .about_description_container {
@@ -94,15 +100,16 @@
   max-width: 250px;
 }
 
-  
-
 
 }
 
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
 
+  .about_container{
+    padding-top: 0.5rem;
+  }
   .about_title {
     font-size: 35px;
   }
@@ -127,25 +134,22 @@
 
   .about_description {
     font-size: 14px;
-    margin-bottom: 1.1rem;
+    margin-bottom: 1rem;
     line-height: 1.5;
   }
 
   .about_description_container{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   
 .about_button_container {
   max-width: 100%;
 }
 
-
-
-
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
   .about_title {
     font-size: 32px;

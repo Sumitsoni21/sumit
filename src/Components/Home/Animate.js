@@ -6,7 +6,8 @@ const Animate = (child) => {
 
   return (
     <span
-      className={anim === 1 ? "fun animated" : "fun"}
+      className={anim === 1 ? "fun animated" : "fun" }
+       id={child.hovering ? "fun-animated" : "fun"}
       onMouseOver={() => setAnim(1)}
       onAnimationEnd={() => setAnim(0)}
     >
