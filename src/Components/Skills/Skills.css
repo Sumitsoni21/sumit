@@ -58,7 +58,6 @@
 
   .skills_main {
     display: block;
-    margin: 0 12%;
   }
 
   
@@ -74,8 +73,6 @@
     justify-content: center;
   }
 
-
-  
 .bar {
     width: 100%;
     margin-top: 3px;
@@ -90,6 +87,10 @@
     float: left;
   }
 }
+
+
+
+/*         bar percentage        */
 
 .html {
   width: 70%;
