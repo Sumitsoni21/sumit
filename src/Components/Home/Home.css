@@ -154,11 +154,85 @@
     font-size: .8rem;
     padding: 0.4rem 1.5rem;
   }
+}
 
 
+  @media screen and (max-width: 400px) {
 
+    .home {
+      padding-top: 1rem;
+    }
   
+    .home_container{
+      padding-top: 6rem;
+    }
+    .home_title {
+      font-size: 3.5rem;
+    }
+  
+    .line_break {
+      top: 80px;
+      left: -72px;
+    }
+  
+    .home_subtitle {
+      font-size: 1.6rem;
+      margin-top: 9rem;
+     
+    }
+  
+    .ln {
+      font-size: 2rem;
+      left: 30%;
+      top: 70%;
+    }
+    
+    .insta {
+      font-size: 2.1rem;
+      left: 10%;
+      top: 70%;
+    }
+    
+    .button{
+      font-size: .8rem;
+      padding: 0.4rem 1.5rem;
+    }
+}
 
+
+@media screen and (max-width: 320px) {
+
+ 
+
+  .home_container{
+    padding-top: 6rem;
+  }
+  .home_title {
+    font-size: 2.8rem;
+  }
+
+  .line_break {
+    top: 60px;
+    left: -58px;
+  }
+
+  .home_subtitle {
+    font-size: 1.5rem;
+    margin-top: 7.5rem;
+   
+  }
+
+  .ln {
+    left: 35%;
+    top: 67%;
+  }
+  
+  .insta {
+    left: 12%;
+    top: 67%;
+  }
+  
+  
 }
 
 

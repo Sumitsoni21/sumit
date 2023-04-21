@@ -180,6 +180,33 @@
 
 }
 
+
+
+
+@media screen and (max-width: 320px) {
+
+  .about_title {
+    font-size: 22px;
+  }
+  
+  .about_img {
+    height: 150px;
+     }
+
+  .about_description_container {
+    max-width: 280px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .about_description {
+    font-size: 11px;
+  }
+  
+}
+
+ 
+
 /* 
 
 @media screen and (max-width: 960px) {
