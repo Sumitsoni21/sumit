@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="skills section" id="skills">
       <div className="skills_container container">
-        <h3 className="skills_title rainbow">MY SKILLS </h3>
+        <h3 className="skills_title ">MY SKILLS </h3>
         
         <div className="skills_main ">
 

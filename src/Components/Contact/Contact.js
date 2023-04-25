@@ -52,6 +52,7 @@ function Contact() {
               className="form_input"
               name="subject"
               placeholder="Write your subject..."
+              autoComplete="off"
             ></input>
           </div>
           <div className="contact_form_div textarea_div">
@@ -60,6 +61,7 @@ function Contact() {
               name="message"
               className="form_input"
               placeholder="write about your project..."
+              autoComplete="off"op
               required
             ></textarea>
           </div>

@@ -1,29 +1,14 @@
 import React, { useState, useRef } from "react";
 import "./Navbar.css";
-import Song from "../../Assets/song.mp3";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isplaying, setIsplaying] =useState(false);
-  const audioRef = useRef(null);
-   
+ 
  
   const toggleNav = () => {
     setIsOpen(!isOpen);
   }; 
 
-
-  const togglePlay =()=> {
-    const audio = audioRef.current;
-    if(isplaying){
-      audio.pause();
-    }else{
-      audio.play();
-    }
-    setIsplaying(!isplaying);
-  };
-
-  
 
   return (
     <nav className="navbar">
@@ -55,14 +40,8 @@ function Navbar() {
               CONTACT
             </a>
           </li>
-          <li className="nav-item">
-            <div type=""  className="nav-link" onClick={togglePlay}>
-              SOUND : {isplaying ? "ON" : "OFF"}
-            </div>
-          </li>
         </ul>
       </div>
-      <audio ref={audioRef} src={Song} loop ></audio>
     </nav>
   );
 }

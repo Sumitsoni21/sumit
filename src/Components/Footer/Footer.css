@@ -60,3 +60,16 @@
     }
     
 }
+
+
+
+@media screen and (max-width: 425px) {
+    .footer_social_link{
+        font-size: 1.5rem;
+    }
+
+    .cpyrt{
+        font-size: 8px;
+    }
+    
+}

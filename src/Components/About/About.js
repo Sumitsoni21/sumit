@@ -36,24 +36,25 @@ function About() {
           </div>
           <div className="about_content">
             <div className="about_description_container">
-             
               <p className="about_description">
-                A who design and develop a website that is
-                dynamic, aesthetically pleasing, functional and easy to
-                navigate, providing a seamless user experience.{" "}
+                A programmer who design and develop websites that is
+                aesthetically pleasing, dynamic, functional, easy to navigate
+                and provides seamless user experience.{" "}
               </p>
 
               <p className="about_description">
-                Friendly, Traveller, Adventures and currently studying B.SC CSA
-                (Honours) from Atal Bihari Vajpayee University Bilaspur.{" "}
+                Friendly, Traveller, Adventures and currently pursuing my
+                bachelors degree in Computer Science and Application from Atal
+                Bihari Vajpayee University Bilaspur.{" "}
               </p>
               <p className="about_description">
-                With my experience whether you need a new website or need assistance with an existing project, I am
-                here to help you achieve your goals.
-               </p>
+                With my experience whether you need a new website or need
+                assistance with an existing project, I am here to help you
+                achieve your goals.
+              </p>
             </div>
-           <div className="about_button_container">
-              <a href="#" className="button about_button">
+            <div className="about_button_container">
+              <a onClick={() => {window.alert("Please try again later")}} className="button about_button">
                 {" "}
                 Download CV
               </a>
